@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Aisha, My Sunshine 💙</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            /* Dreamy, soft ocean layer gradient background */
+            background: linear-gradient(180deg, #0284c7 0%, #0369a1 40%, #0c4a6e 80%, #0f172a 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+            color: #f8fafc;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Gentle drifting lilies and ocean wave elements */
+        .ocean-drift {
+            position: absolute;
+            pointer-events: none;
+            opacity: 0.25;
+            font-size: 2.5rem;
+            animation: slowWave 7s ease-in-out infinite alternate;
+        }
+
+        @keyframes slowWave {
+            0% { transform: translateY(0px) rotate(-5deg); }
+            100% { transform: translateY(-20px) rotate(10deg); }
+        }
+
+        .container {
+            max-width: 580px;
+            width: 100%;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Soft Ocean Glass Layer Style */
+        .ocean-layer {
+            background: rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
+            padding: 50px 35px;
+            border-radius: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            box-shadow: 0 25px 50px rgba(15, 23, 42, 0.4);
+            text-align: center;
+            display: none;
+            opacity: 0;
+            transform: translateY(15px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+
+        .active-layer {
+            display: block;
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        h1, h2 {
+            font-family: 'Times New Roman', serif;
+            color: #e0f2fe;
+            font-size: 2.6rem;
+            margin-bottom: 15px;
+            font-weight: normal;
+            letter-spacing: 1px;
+        }
+
+        p {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: #f1f5f9;
+            margin-bottom: 25px;
+        }
+
+        /* Soft, glowing sea-glass button */
+        .ocean-btn {
+            background: rgba(224, 242, 254, 0.2);
+            color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            padding: 12px 35px;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Georgia', serif;
+            display: inline-block;
+            margin-top: 15px;
+            backdrop-filter: blur(5px);
+        }
+
+        .ocean-btn:hover {
+            background: #ffffff;
+            color: #0369a1;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(255, 255, 255, 0.15);
+        }
+
+        /* The Poem Content */
+        .poem-text {
+            font-size: 1.25rem;
+            line-height: 2.2;
+            color: #ffffff;
+            white-space: pre-line;
+            margin: 25px 0;
+            text-shadow: 0 2px 5px rgba(15, 23, 42, 0.3);
+        }
+
+        .soft-divider {
+            width: 60%;
+            height: 1px;
+            background: linear-gradient(to right, transparent, rgba(255,255,255,0.4), transparent);
+            margin: 20px auto;
+        }
+
+        /* Handwritten Margin Notes for Songs */
+        .song-notes {
+            background: rgba(15, 23, 42, 0.25);
+            border-left: 3px solid #7dd3fc;
+            padding: 15px;
+            border-radius: 12px;
+            font-size: 0.95rem;
+            color: #e0f2fe;
+            text-align: left;
+            margin-top: 30px;
+            line-height: 1.6;
+        }
+
+        .song-heading {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: bold;
+            color: #7dd3fc;
+        }
+
+        /* Corner Floral Embellishments (Real Lilies) */
+        .lily-corner {
+            position: absolute;
+            font-size: 1.4rem;
+            opacity: 0.4;
+        }
+        .tl { top: 20px; left: 20px; }
+        .tr { top: 20px; right: 20px; }
+        .bl { bottom: 20px; left: 20px; }
+        .br { bottom: 20px; right: 20px; }
+    </style>
+</head>
+<body>
+
+    <div class="ocean-drift" style="top: 8%; left: 7%; animation-delay: 0s;">🌸</div>
+    <div class="ocean-drift" style="top: 25%; right: 10%; animation-delay: 2s;">🌊</div>
+    <div class="ocean-drift" style="bottom: 15%; left: 6%; animation-delay: 4s;">❀</div>
+    <div class="ocean-drift" style="bottom: 12%; right: 9%; animation-delay: 1s;">🌸</div>
+    <div class="ocean-drift" style="top: 50%; left: 4%; animation-delay: 3s;">🌊</div>
+    <div class="ocean-drift" style="top: 70%; right: 5%; animation-delay: 5s;">❀</div>
+
+    <div class="container">
+
+        <div id="layer1" class="ocean-layer active-layer">
+            <span class="lily-corner tl">🌸</span>
+            <span class="lily-corner tr">❀</span>
+            <span class="lily-corner bl">❀</span>
+            <span class="lily-corner br">🌸</span>
+
+            <div style="font-size: 3.5rem; margin-bottom: 10px;">🌊✨</div>
+            <h1>Hey Aisha...</h1>
+            <p>To one of the strongest, most incredibly beautiful people I have ever known. Your heart is so full of kindness. I created this peaceful little ocean layer just for you.</p>
+            <button class="ocean-btn" onclick="nextLayer(1, 2)">Open It Up 🌊</button>
+        </div>
+
+        <div id="layer2" class="ocean-layer">
+            <span class="lily-corner tl">🌸</span>
+            <span class="lily-corner tr">🌸</span>
+            <span class="lily-corner bl">🌸</span>
+            <span class="lily-corner br">🌸</span>
+
+            <h2>Aisha</h2>
+            <p style="font-style: italic; color: #bae6fd; font-size: 1rem; margin-bottom: 5px;">My sunshine, my blue, my strength.</p>
+            
+            <div class="soft-divider"></div>
+
+            <div class="poem-text">
+Aisha, you're the blue that paints the sky,
+A gentle grace that makes the shadows fly.
+With every smile, you bring a quiet peace,
+A place where all the heavy worries cease.
+You listen with a heart so wide and true,
+The world is softer just because of you.
+
+You are the kindest soul to ever walk,
+There’s healing in the way you laugh and talk.
+My sunshine when the winter days are cold,
+A brilliant spirit, beautiful and bold.
+You carry warmth in everything you do,
+My constant light, my comfort, and my blue.
+
+Like "Sweet Carolina" playing on the breeze,
+Your presence puts a restless mind at ease.
+A love so deep, a friendship so divine,
+I am so lucky that your light is mine.
+Through every dawn, your brilliance sees me through,
+My shining sun, it’s always been you.
+            </div>
+
+            <div class="soft-divider"></div>
+            
+            <div class="song-notes">
+                <span class="song-heading">💙 Tucked into the thoughts of this page:</span>
+                • Sweet Carolina — Lana Del Rey<br>
+                • Love — Lana Del Rey<br>
+                • Chalo Door Kahin — Samar Jafri
+            </div>
+
+            <button class="ocean-btn" onclick="nextLayer(2, 3)">Turn the Page 🌙</button>
+        </div>
+
+        <div id="layer3" class="ocean-layer">
+            <span class="lily-corner tl">❀</span>
+            <span class="lily-corner tr">🌸</span>
+            <span class="lily-corner bl">🌸</span>
+            <span class="lily-corner br">❀</span>
+
+            <div style="font-size: 3rem; margin-bottom: 10px;">💝</div>
+            <h2>Thank You, Aisha</h2>
+            <p>I genuinely hope this brought a little bit of comfort and a tiny smile to your face today. Thank you for being so incredibly strong, and for just being you.</p>
+            
+            <div class="soft-divider"></div>
+
+            <p style="font-size: 1.4rem; color: #bae6fd; font-family: 'Times New Roman', serif; margin-top: 15px;">
+                With all my love,<br>
+                <strong style="color: #ffffff;">— From your shining moon 🌙</strong>
+            </p>
+        </div>
+
+    </div>
+
+    <script>
+        // Smoothly fade-in the very first page upon landing
+        window.addEventListener('DOMContentLoaded', () => {
+            const firstLayer = document.getElementById('layer1');
+            setTimeout(() => {
+                firstLayer.style.opacity = '1';
+                firstLayer.style.transform = 'translateY(0)';
+            }, 150);
+        });
+
+        function nextLayer(current, next) {
+            const currentEl = document.getElementById('layer1' === 'layer' + current ? 'layer1' : 'layer' + current);
+            const nextEl = document.getElementById('layer' + next);
+
+            // Smooth transition animation away
+            currentEl.style.opacity = '0';
+            currentEl.style.transform = 'translateY(-15px)';
+
+            setTimeout(() => {
+                currentEl.classList.remove('active-layer');
+                nextEl.classList.add('active-layer');
+                
+                // Trigger smooth fade-in for next screen
+                setTimeout(() => {
+                    nextEl.style.opacity = '1';
+                    nextEl.style.transform = 'translateY(0)';
+                }, 50);
+            }, 800);
+        }
+    </script>
+
+</body>
+</html>
